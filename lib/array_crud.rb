@@ -1,13 +1,14 @@
 def create_an_empty_array
-  EXE = []
+  []
 end
 
 def create_an_array
-  EXE = ["A","B","C","D"]
+  ["A","B","C","D"]
 end
 
 def add_element_to_end_of_array(array, element)
-  EXE [4] << "E"
+  example_array = ["E", "F", "G"]
+  example_array[4] << "H"
 end
 
 def add_element_to_start_of_array(array, element)
