@@ -14,7 +14,7 @@ end
 
 def add_element_to_start_of_array(array, element)
   array = ["B", "C", "D"]
-  element = "A"
+  element = "wow"
   element unshift array
 end
 
